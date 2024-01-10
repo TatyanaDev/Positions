@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: lightpink;
+  font-family: sans-serif;
+  min-height: 300vh;
+  margin: 0;
+}
+
+.first-block {
+  background-color: red;
+  height: 50px;
+  width: 50px;
+  left: 0px;
+  top: 0px;
+}
+
+.second-block {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  top: 0px;
+  right: 0px;
+}
+
+.third-block {
+  background-color: blue;
+  height: 150px;
+  width: 150px;
+  bottom: 0px;
+  right: 0px;
+}
+
+.fourth-block {
+  background-color: green;
+  height: 200px;
+  width: 200px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.first-block,
+.second-block,
+.third-block,
+.fourth-block {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 40px;
+}
